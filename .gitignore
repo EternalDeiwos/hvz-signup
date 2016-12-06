@@ -38,3 +38,7 @@ jspm_packages
 
 # JSDoc
 docs
+
+# Ignore config files in case of sensitive information
+config.json
+config
