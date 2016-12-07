@@ -4,8 +4,11 @@
     "port": 28015,
     "db": "test",
     "user": "admin",
-    "password": "password",
+    "password": "",
     "timeout": 20,
     "ssl": null
+  },
+  "secrets": {
+    "session": "foobarbaz"
   }
 }
