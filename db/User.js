@@ -18,9 +18,7 @@ class User {
   }
 
   static get indices () {
-    return [
-      
-    ]
+    return []
   }
 
 }
