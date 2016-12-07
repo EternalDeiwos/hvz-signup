@@ -41,5 +41,5 @@ docs
 
 # Ignore config files in case of sensitive information
 config.json
-config
+config/*.json
 .env
