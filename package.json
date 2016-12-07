@@ -4,16 +4,36 @@
   "description": "A placeholder mailing list signup website for Rhodes HvZ while the main site is built.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EternalDeiwos/hvz-signup.git"
   },
-  "author": "",
+  "author": "Greg Linklater <greglink49@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EternalDeiwos/hvz-signup/issues"
   },
-  "homepage": "https://github.com/EternalDeiwos/hvz-signup#readme"
+  "homepage": "https://github.com/EternalDeiwos/hvz-signup#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "discord.js": "^10.0.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "lodash": "^4.17.2",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.27",
+    "session-rethinkdb": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  }
 }
